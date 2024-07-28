@@ -1,0 +1,152 @@
+
+.domain-selection {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.domain-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.domain-button {
+  background-color: #f8f9fa;
+  border: none;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.domain-button:hover {
+  background-color: #e2e6ea;
+}
+
+.domain-button p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.admin-login-container {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.admin-login-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-login-button:hover {
+  background-color: #218838;
+}
+
+
+
+
+
+
+/* Resume Upload */
+.resume-upload {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f0f4f8;
+}
+
+.resume-upload h2 {
+  margin-bottom: 20px;
+}
+
+.upload-box {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  width: 300px;
+}
+
+.upload-box input[type="file"] {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.upload-box p {
+  margin: 10px 0;
+}
+
+.upload-box .btn {
+  display: block;
+  margin: 10px auto;
+}
+
+
+
+
+.admin-login {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.admin-login h2 {
+  margin-bottom: 20px;
+}
+
+.admin-login .form-group {
+  margin-bottom: 15px;
+}
+
+.admin-login .form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.admin-login .form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.admin-login button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-login button:hover {
+  background-color: #0056b3;
+}
+
+.admin-login-button {
+  margin-top: 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-login-button:hover {
+  background-color: #218838;
+}

@@ -1,0 +1,113 @@
+
+.candidate-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #343a40;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-label {
+    font-weight: bold;
+    color: #495057;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .required {
+    color: red;
+    margin-left: 0.25rem;
+  }
+  
+  .form-control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .language-select .select__control {
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+  }
+  
+  .language-select .select__multi-value {
+    background-color: #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .language-select .select__multi-value__label {
+    color: #495057;
+  }
+  
+  .language-select .select__multi-value__remove {
+    color: #495057;
+  }
+  
+  .language-select .select__multi-value__remove:hover {
+    background-color: #e9ecef;
+    color: #343a40;
+  }
+  
+  .form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+  }
+  
+  .form-buttons .btn {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .modal.fade.show.d-block {
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-dialog {
+    margin-top: 10%;
+  }
+  
+  .modal-content {
+    background-color: #243a6d;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .modal-header, .modal-footer {
+    border: none;
+  }
+  
+  .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .modal-body p {
+    font-size: 1.25rem;
+  }
+  
+  .modal-footer .btn {
+    background-color: #1e2a5a;
+    border-color: #1e2a5a;
+  }
+  
+  .modal-footer .btn:hover {
+    background-color: #142048;
+    border-color: #142048;
+  }
